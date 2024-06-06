@@ -11,7 +11,8 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
+    /* --color-bg: #1f1f38; */ 
+    --color-bg: #33333c;
     --color-bg-variant: #2c3c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -58,6 +59,7 @@ h5 {
 
 h1 {
     font-size: 2.5rem;
+    
 }
 
 section {
@@ -68,7 +70,7 @@ section {
 section >  h2, 
 section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: rgb(255, 255, 255);
 }
 
 section > h2 {
@@ -115,6 +117,12 @@ img  {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+.overlined {
+    /* background-color: #2c3c6cd7; */
+    text-decoration: underline #4db5ff;
+    text-underline-offset: 0.3rem;
 }
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */

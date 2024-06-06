@@ -20,6 +20,7 @@
 }
 
 .about_me-img {
+    
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -68,9 +69,11 @@
 }
 
 .about_content p {
-    margin: 2rem 0  2.6rem;
-    color: var(--color-light);
+    
+    margin: 1.5rem 0  2rem;
+    color: rgb(255, 255, 255);
 }
+
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
 
@@ -80,7 +83,7 @@
         gap: 0;
     }
     .about_me {
-        width: 50%;
+        width: 45%;
         margin: 2rem auto 4rem;
 
     }
@@ -93,7 +96,7 @@
 
 @media screen and (max-width: 600px) {
     .about_me {
-        width: 65%;
+        width: 75%;
         margin: 0 auto 3rem;
     }
     .about_cards {
