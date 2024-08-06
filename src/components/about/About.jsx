@@ -22,26 +22,29 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Expérience</h5>
-              <small>~ 1 an </small>
+              <small>~ 2 ans </small>
             </article>
             <article className='about_card'>
               <MdScreenSearchDesktop className='about_icon'/>
-              <h5>Connecté</h5>
-              <small>Veille Technologique</small>
+              <h5>Dev Web Fullstack</h5>
+              <small>React, Node.js ...</small>
             </article>
             <article className='about_card'>
               <MdMenuBook className='about_icon'/>
-              <h5>Curiosité </h5>
-              <small>Soif d'Apprendre</small>
+              <h5>Design</h5>
+              <small>UX/UI, Suite Adobe, Figma...</small>
             </article>
           </div>
           <p>
-          " Ayant grandi avec la passion de l'informatique et d'internet, cela m'a naturellement conduit à explorer le monde fascinant du développement web.
-          </p>
-          <p> En tant que Développeur Web Fullstack  junior, je développe activement mes compétences dans des langages clés tels que <span className='overlined'>React, Vite, NodeJS, MySQL </span>tout en consolidant mes bases en <span className='overlined'>HTML, CSS et JavaScript.</span><br />Concernant la stylisation j'ai pu utiliser des outils comme le <span className='overlined'>Sass et SCSS</span> ou encore <span className='overlined'>Tailwind.</span> J'ai également acquis une expérience significative dans l'utilisation de CMS populaires tel que <span className='overlined'>WordPress.</span>
+          Je suis un développeur web fullstack passionné, animé par une profonde fascination pour l'Asie et la culture web. Toujours motivé et désireux d'apprendre, j'aime explorer de nouvelles technologies et repousser les limites de mes compétences.
           </p>
           <p>
-          Mon diplôme obtenu il y a un an marque le début d'une carrière prometteuse dans laquelle je m'engage pleinement. En constante quête de perfectionnement, je nourris la détermination d'exceler dans le domaine toujours innovant et en constante évolution du développement web."
+          Je me spécialise principalement en <span className='overlined'>React et Node.js</span>, des technologies avec lesquelles je crée des applications <span className='overlined'>web performantes et modernes</span>. 
+           Mon appétence pour le design me pousse à m'investir dans chaque détail esthétique de mes projets. <br></br>J'utilise la suite <span className='overlined'>Adobe</span> pour concevoir des interfaces élégantes et intuitives, alliant créativité et fonctionnalité. Mon objectif est de fusionner la technologie et le design pour offrir des expériences utilisateur uniques et immersives.
+          J'ai également acquis une expérience significative dans l'utilisation de CMS populaires tel que <span className='overlined'>WordPress.</span>
+          </p>
+          <p>
+          Rejoignez-moi dans cette aventure où l'innovation technologique rencontre la richesse culturelle et artistique. Ensemble, nous pouvons transformer vos idées en réalité numérique et créer des projets web qui vous ressemblent.
           </p>
           <a href="#contact" className='btn btn-primary'>Me Contacter</a>
         </div>

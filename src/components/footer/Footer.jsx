@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {BsWhatsapp} from 'react-icons/bs'
+// import {BsWhatsapp} from 'react-icons/bs'
 // import {AiOutlineHome} from 'react-icons/ai'
 
 
@@ -23,7 +23,7 @@ const Footer = () => {
 
       <div className="footer_socials">
       <a href="https://www.linkedin.com/in/rudy-touitou-289732243/" target='_blank' rel="noreferrer"><BsLinkedin/></a>
-      <a href="https://wa.me/+33650521529" target='_blank' rel="noreferrer"><BsWhatsapp /></a>
+      {/* <a href="https://wa.me/+33650521529" target='_blank' rel="noreferrer"><BsWhatsapp /></a> */}
       <a href="https://github.com/Rudy-Touitou" target='_blank' rel="noreferrer"><FaGithub/> </a>
 
       </div>

@@ -8,12 +8,13 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin-top: 70px;
 }
 .contact_option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
-    text-align: center;
+    text-align: ce  nter;
     border: 1px solid transparent;
     transition: var(--transition);
 }
